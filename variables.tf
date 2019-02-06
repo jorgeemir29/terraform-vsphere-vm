@@ -6,7 +6,7 @@ variable "vmnamesuffix" {
   description = "vmname suffix after numbered index coming from instance variable"
   default = ""
 }
-variable "vmtemp" {
+variable "vmtemplate_name" {
   description = "Name of the template available in the vSphere"
 }
 variable "is_windows_image" {
